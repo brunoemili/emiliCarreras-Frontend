@@ -1,0 +1,16 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.header {
+    display:flex;
+    flez-direction:row;
+    justify-content:center;
+    align-items:center;
+    column-gap: 5rem;
+    border-bottom: lpx solid;
+}
+.main {
+    flex-direction: column;
+}
