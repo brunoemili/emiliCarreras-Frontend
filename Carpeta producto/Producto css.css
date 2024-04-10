@@ -71,22 +71,13 @@ a {
     text-align: center; /* Centra el contenido horizontalmente */
 }
 
-.imagen {
+img {
     align-items: center;
     justify-content: space-between;
     display: table;
     border-radius: 16px;
 }
-.imagen, .imagen1 {
-    width: 300px;
-    margin: 5px;
-}
 
-
-.imagen, .imagen2 {
-    width: 300px;
-    margin: 5px;
-}
 
 img{
     border: 2px outset #74369A;
@@ -114,3 +105,428 @@ li:hover{
 }
 
 
+@media (min-width: 1030px) {
+    .header {
+        border-bottom: 1px solid rgb(41, 4, 4);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }   
+    
+    
+    .hometitle{
+        color: #1A0C1A;
+        /*border: 2px solid purple;*/
+        max-width: 200px;
+        padding: 0px;
+        font-size: 40px;
+        font-family: "MuseoModerno", sans-serif;
+        margin-bottom: 10px;
+    }
+    
+    .homelist {
+        display: flex;
+        color: black;
+        list-style-type: none;
+        margin-left: 2rem;
+        column-gap: 50px;
+        font-family: "MuseoModerno", sans-serif;
+    
+    }
+    
+    li{
+        font-size: 16px;
+        border: 1px solid(79, 20, 135);
+        padding: 8px;
+        border-radius: 40px;
+        background-color: #FECCFF;
+        color: #1A0C1A;
+        transition: 0.6ms;
+    
+    }
+    
+    .seccion{
+        display: flex;
+        flex-direction: wrap;
+        justify-content: center;
+        column-gap: 0.5%;
+        padding: 60px;
+        color: #1A0C1A;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        
+    
+        
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    .hambur {
+        font-family: "MuseoModerno", sans-serif;
+        width: calc(33.33% - 20px); /* Ajusta el ancho de cada celda */
+        margin: 10px; /* Espacio entre las celdas */
+        text-align: center; /* Centra el contenido horizontalmente */
+    }
+    
+    .imagen {
+        align-items: center;
+        justify-content: space-between;
+        display: table;
+        border-radius: 16px;
+    }
+    .imagen, .imagen1 {
+        width: 300px;
+        margin: 5px;
+    }
+    
+    
+    .imagen, .imagen2 {
+        width: 300px;
+        margin: 5px;
+    }
+    
+    img{
+        border: 2px outset #74369A;
+        border-style: solid;
+    }
+    
+    li:hover{
+        width: auto;
+        height: auto;
+    }
+    
+    .footer {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(41, 4, 4);
+        font-family: "MuseoModerno", sans-serif;
+        color: #1A0C1A;
+    
+    }
+    .homelist a:hover {
+        font-weight: bold; /* Hace que el texto del enlace sea negrita al pasar el mouse sobre él */
+    }
+
+}
+
+@media (max-width: 1029px) {
+    .header {
+        border-bottom: 1px solid rgb(41, 4, 4);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }   
+    
+    
+    .hometitle{
+        color: #1A0C1A;
+        /*border: 2px solid purple;*/
+        max-width: 200px;
+        padding: 0px;
+        font-size: 40px;
+        font-family: "MuseoModerno", sans-serif;
+        margin-bottom: 10px;
+    }
+    
+    .homelist {
+        display: flex;
+        color: black;
+        list-style-type: none;
+        margin-left: 2rem;
+        column-gap: 50px;
+        font-family: "MuseoModerno", sans-serif;
+    
+    }
+    
+    li{
+        font-size: 16px;
+        border: 1px solid(79, 20, 135);
+        padding: 8px;
+        border-radius: 40px;
+        background-color: #FECCFF;
+        color: #1A0C1A;
+        transition: 0.6ms;
+    
+    }
+    
+    .seccion{
+        display: flex;
+        flex-direction: wrap;
+        justify-content: center;
+        column-gap: 0.5%;
+        padding: 100px;
+        color: #1A0C1A;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    .hambur {
+        font-family: "MuseoModerno", sans-serif;
+        width: calc(33.33% - 20px); /* Ajusta el ancho de cada celda */
+        margin: 10px; /* Espacio entre las celdas */
+        text-align: center; /* Centra el contenido horizontalmente */
+    }
+    
+    .imagen {
+        align-items: center;
+        justify-content: space-between;
+        display: table;
+        border-radius: 16px;
+    }
+    .imagen {
+        width: 200px;
+        margin: 5px;
+    }
+    
+    img{
+        border: 2px outset #74369A;
+        border-style: solid;
+    }
+    
+    li:hover{
+        width: auto;
+        height: auto;
+    }
+    
+    .footer {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(41, 4, 4);
+        font-family: "MuseoModerno", sans-serif;
+        color: #1A0C1A;
+    
+    }
+    .homelist a:hover {
+        font-weight: bold; /* Hace que el texto del enlace sea negrita al pasar el mouse sobre él */
+    }
+
+}
+
+@media (max-width: 720px) {
+    .header {
+        border-bottom: 1px solid rgb(41, 4, 4);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }   
+    
+    
+    .hometitle{
+        color: #1A0C1A;
+        /*border: 2px solid purple;*/
+        max-width: 200px;
+        padding: 0px;
+        font-size: 40px;
+        font-family: "MuseoModerno", sans-serif;
+        margin-bottom: 10px;
+    }
+    
+    .homelist {
+        display: flex;
+        color: black;
+        list-style-type: none;
+        margin-left: 2rem;
+        column-gap: 50px;
+        font-family: "MuseoModerno", sans-serif;
+    
+    }
+    
+    li{
+        font-size: 16px;
+        border: 1px solid(79, 20, 135);
+        padding: 8px;
+        border-radius: 40px;
+        background-color: #FECCFF;
+        color: #1A0C1A;
+        transition: 0.6ms;
+    
+    }
+    
+    .seccion{
+        display: flex;
+        flex-direction: wrap;
+        justify-content: center;
+        column-gap: 0.5%;
+        padding: 100px;
+        color: #1A0C1A;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        
+    
+        
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    .hambur {
+        font-family: "MuseoModerno", sans-serif;
+        width: calc(33.33% - 20px); /* Ajusta el ancho de cada celda */
+        margin: 10px; /* Espacio entre las celdas */
+        text-align: center; /* Centra el contenido horizontalmente */
+    }
+    
+    .imagen {
+        align-items: center;
+        justify-content: space-between;
+        display: table;
+        border-radius: 16px;
+    }
+    .imagen {
+        width: 200px;
+        margin: 5px;
+    }
+    
+    img{
+        border: 2px outset #74369A;
+        border-style: solid;
+    }
+    
+    li:hover{
+        width: auto;
+        height: auto;
+    }
+    
+    .footer {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(41, 4, 4);
+        font-family: "MuseoModerno", sans-serif;
+        color: #1A0C1A;
+    
+    }
+    .homelist a:hover {
+        font-weight: bold; /* Hace que el texto del enlace sea negrita al pasar el mouse sobre él */
+    }
+
+}
+
+@media (max-width: 470px) {
+    .header {
+        border-bottom: 1px solid rgb(41, 4, 4);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        column-gap: 0.5%;
+        padding: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }   
+    
+    
+    .hometitle{
+        color: #1A0C1A;
+        /*border: 2px solid purple;*/
+        max-width: 200px;
+        padding: 0px;
+        font-size: 40px;
+        font-family: "MuseoModerno", sans-serif;
+        margin-bottom: 10px;
+    }
+    
+    .homelist {
+        display: flex;
+        color: black;
+        list-style-type: none;
+        margin-left: 2rem;
+        column-gap: 50px;
+        font-family: "MuseoModerno", sans-serif;
+    
+    }
+    
+    li{
+        font-size: 16px;
+        border: 1px solid(79, 20, 135);
+        padding: 8px;
+        border-radius: 40px;
+        background-color: #FECCFF;
+        color: #1A0C1A;
+        transition: 0.6ms;
+    
+    }
+    
+    .seccion{
+        display: flex;
+        flex-direction: wrap;
+        justify-content: center;
+        column-gap: 0.5%;
+        padding: 120px;
+        color: #1A0C1A;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        
+    
+        
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    .hambur {
+        font-family: "MuseoModerno", sans-serif;
+        width: calc(33.33% - 20px); /* Ajusta el ancho de cada celda */
+        margin: 10px; /* Espacio entre las celdas */
+        text-align: center; /* Centra el contenido horizontalmente */
+    }
+    
+    .imagen {
+        align-items: center;
+        justify-content: space-between;
+        display: table;
+        border-radius: 16px;
+    }
+    .imagen {
+        width: 200px;
+        margin: 5px;
+    }
+    
+    img{
+        border: 2px outset #74369A;
+        border-style: solid;
+    }
+    
+    li:hover{
+        width: auto;
+        height: auto;
+    }
+    
+    .footer {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(41, 4, 4);
+        font-family: "MuseoModerno", sans-serif;
+        color: #1A0C1A;
+    
+    }
+    .homelist a:hover {
+        font-weight: bold; /* Hace que el texto del enlace sea negrita al pasar el mouse sobre él */
+    }
+
+}
